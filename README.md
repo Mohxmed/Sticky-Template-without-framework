@@ -2,7 +2,7 @@
 Simple Landing Store Page 
 <br>
 ----
-Coded with Core Web Languages without Framework
+Coded with Core Web Languages without any Framework
 <br>
 <h4>Used Technologies</h4>
 <ul>
