@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky v1.4</title>
+    <!-- CSS Sheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- CDN & Plug-ins -->
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/ac0713d0ba.js" crossorigin="anonymous"></script>
+    <!-- Page Tab Favicon -->
+    <link rel="icon" href="/assets/identity/favicon.png">
+</head>
+
+<body>
+    <!-- Page Scroll Measure -->
+    <div class="scroller"></div>
+    <!-- Start Page Header -->
+    <div class="header-wrapper">
+        <div class="main-header">
+            <div class="container">
+                <div class="pt1">
+                    <!-- Menu Button -->
+                    <div class="menu-btn">
+                        <button><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                    <!-- Page Logo -->
+                    <div class="main-logo">
+                        <a href="/"><img src="assets/identity/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="pt2">
+                    <!-- Header Links -->
+                    <div class="links">
+                        <ul class="line-list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="javascript:void(0)">Devices</a></li>
+                            <li><a href="javascript:void(0)">Delivery & Payment</a></li>
+                            <li><a href="javascript:void(0)">Guarantee</a></li>
+                            <li><a href="javascript:void(0)">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt3">
+                    <!-- Header Buttons -->
+                    <div class="cart">
+                        <button class="cart" data-count="0"><a>CART</a></button>
+                    </div>
+                    <div class="sign-in">
+                        <button class="signbtn border-btn"><a>SIGN IN</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Left Menu -->
+    <div class="leftmenu">
+        <div class="left-menu">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <div class="logo">
+                <h4>Main Menu</h4>
+            </div>
+            <ul class="link-list">
+                <li><a href="javascript:void(0)"><i class="fa-regular fa-folder"></i> Categories</a></li>
+                <li><a href="javascript:void(0)"><i class="fa-regular fa-map"></i> Countries</a></li>
+                <li><a href="javascript:void(0)"><i class="fa-solid fa-money-bill-trend-up"></i> Best Sellers</a></li>
+                <li><a href="javascript:void(0)"><i class="fa-solid fa-comments-dollar"></i> Affilate</a></li>
+            </ul>
+            <hr>
+            <ul class="link-list">
+                <li><a href="javascript:void(0)"><i class="fa-regular fa-circle-question"></i> FAQ</a></li>
+                <li><a href="javascript:void(0)"><i class="fa-regular fa-paper-plane"></i> Contact</a></li>
+            </ul>
+            <hr>
+            <ul class="link-list">
+                <li><a href="javascript:void(0)"><i class="fa-solid fa-sliders"></i> Customize</a></li>
+                <li><a href="javascript:void(0)"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Cart -->
+    <div class="cart-wrapper">
+        <div class="cart-items">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <h4>Cart Items (Local Storage)</h4>
+            <div class="item-wrapper">
+                <h2>Cart is Empty, Add Some Items</h2>
+            </div>
+            <div class="cart-buttons">
+                <button class="main-btn clear">Clear</button>
+                <button class="main-btn">Purchase</button>
+            </div>
+        </div>
+    </div>
+    <!-- Sign-in -->
+    <div class="sign-wrapper">
+        <div class="sign-section">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <h4>Sign in</h4>
+            <form autocomplete="off">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="showpass"><i class="fa-regular fa-eye"></i></span>
+                <span class="hidepass"><i class="fa-regular fa-eye-slash"></i></span>
+
+                <input type="submit" class="main-btn" value="Sign in">
+            </form>
+        </div>
+    </div>
+    <!-- Start Header Navbar -->
+    <div class="header-nav">
+        <div class="container">
+            <!-- Navbar Links -->
+            <div class="nav-links">
+                <ul class="line-list">
+                    <li><a href="javascript:void(0)">TOP SALES</a></li>
+                    <li><a href="javascript:void(0)">BRAND FOCUS</a></li>
+                    <li><a href="javascript:void(0)">HI-TECH</a></li>
+                    <li><a href="javascript:void(0)">BEST SELLERS</a></li>
+                    <li><a href="javascript:void(0)">PROJECTS</a></li>
+                </ul>
+            </div>
+            <!-- Navbar Seach Input -->
+            <div class="search">
+                <li><a href="javascript:void(0)">SUPPORT</a></li>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="i'm looking for..">
+            </div>
+        </div>
+    </div>
+    <!-- Start Page Slider -->
+    <div class="slider-wrapper">
+        <div class="container">
+            <!-- Next Silder Button -->
+            <div class="next"><i class="fa-solid fa-chevron-right"></i></div>
+            <!-- Slider Content -->
+            <div class="slide-content">
+                <div data-num="1" class="slide">
+                    <img src="assets/Slider/1.jpg" alt="#">
+                    <div class="text-content">
+                        <h1>Modern Phones Collection</h1>
+                        <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
+                            arms I
+                            held fast by him, or I should have fallen to the ground.</p>
+                        <button class="main-btn">Show Category</button>
+                    </div>
+
+                </div>
+                <div data-num="2" class="slide hide">
+                    <div class="text-content">
+                        <h1>Creativity Makers Zone</h1>
+                        <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
+                            arms I
+                            held fast by him, or I should have fallen to the ground.</p>
+                        <button class="main-btn">Show Category</button>
+                    </div>
+                    <div class="pic">
+                        <img src="assets/Slider/2.jpg" alt="#">
+                    </div>
+
+                </div>
+                <div data-num="3" class="slide hide">
+                    <div class="text-content">
+                        <h1>Not a Store , it's a lifestyle</h1>
+                        <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
+                            arms I
+                            held fast by him, or I should have fallen to the ground.</p>
+                        <button class="main-btn">Browse All Brands</button>
+                    </div>
+                    <div class="pic">
+                        <img src="assets/Slider/3.jpg" alt="#">
+                    </div>
+
+                </div>
+                <div data-num="4" class="slide hide">
+                    <div class="text-content">
+                        <h1>Latest Smart Devices</h1>
+                        <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his
+                            arms I
+                            held fast by him, or I should have fallen to the ground.</p>
+                        <button class="main-btn">Show Category</button>
+                    </div>
+                    <div class="pic">
+                        <img src="assets/Slider/4.jpg" alt="#">
+                    </div>
+
+                </div>
+                <!-- Slider Pagenation -->
+                <div class="control-silde">
+                    <div class="target">
+                        <div data-num="1" class="crcl active"></div>
+                        <div data-num="2" class="crcl"></div>
+                        <div data-num="3" class="crcl"></div>
+                        <div data-num="4" class="crcl"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pervious Silder Button -->
+            <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+        </div>
+    </div>
+    <!-- Products -->
+    <div class="products-wrapper">
+        <div class="container">
+
+            <!-- Products Content -->
+            <div id="devices"></div>
+            <div class="content-wrapper">
+                <!-- Product Posts -->
+                <div class="posts">
+                    <div class="post">
+                        <img src="assets/producs/1.webp" alt="">
+                        <h3>Peppel Time</h3>
+                        <span>Black</span>
+                        <span class="price">$ 299</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/2.webp" alt="">
+                        <h3>iPhone 15 Pro Max</h3>
+                        <span>Purple, Black, White</span>
+                        <span class="price">$ 1099</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/3.png" alt="">
+                        <h3>iPhone 14 Pro Max</h3>
+                        <span>White, Black</span>
+                        <span class="price">£ 1,199</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/4.webp" alt="">
+                        <h3>iPhone 14 Plus</h3>
+                        <span>Sliver, Black</span>
+                        <span class="price">$ 699</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/5.jpg" alt="">
+                        <h3>JBL Charge 2+</h3>
+                        <span>Brown</span>
+                        <span class="price">$ 130</span>
+                    </div>
+
+                    <div class="post">
+                        <img src="assets/producs/6.webp" alt="">
+                        <h3>RSS Camera Lens</h3>
+                        <span>Black</span>
+                        <span class="price">$ 39.59</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/7.jpg" alt="">
+                        <h3>Apple TV 32GB</h3>
+                        <span>Black</span>
+                        <span class="price">109.00$</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/8.webp" alt="">
+                        <h3>Xiaomi Airpods </h3>
+                        <span>White</span>
+                        <span class="price">$ 84</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/9.jpg" alt="">
+                        <h3>Apple Airpods</h3>
+                        <span>White</span>
+                        <span class="price">$ 192</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/10.webp" alt="">
+                        <h3>Playstation 5</h3>
+                        <span>Black & White</span>
+                        <span class="price">$ 530</span>
+                    </div>
+
+                    <div class="post">
+                        <img src="assets/producs/11.webp" alt="">
+                        <h3>Water Cooling Gaming PC</h3>
+                        <span>White, RGB</span>
+                        <span class="price">$ 1700</span>
+                    </div>
+                    <div class="post">
+                        <img src="assets/producs/12.jpg" alt="">
+                        <h3>Apple Watch xs</h3>
+                        <span>White</span>
+                        <span class="price">$ 280</span>
+                    </div>
+                    <div class="pagenation">
+                        <div class="left"><i class="fa-solid fa-chevron-left"></i></div>
+                        <div class="p-nums">
+                            <span class="active">1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+
+                        </div>
+                        <div class="right"><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+
+                </div>
+                <!-- Product Sidebar -->
+                <div class="sidebar">
+                    <section class="tags">
+                        <ul class="ddown">
+                            <li class="droped">Top Sales</li>
+                            <ul class="nested-side">
+                                <li>Black Friday</li>
+                                <li>Weekly Sales</li>
+                                <li>Monthly Sales</li>
+                                <li>Yearly Sales</li>
+                                <li>Quantities Sales</li>
+                            </ul>
+                            <li class="droped">Brand Foucs</li>
+                            <ul class="nested-side">
+                                <li>Apple</li>
+                                <li>Samsung</li>
+                                <li>Playstation</li>
+                                <li>Gigabyte</li>
+                                <li>JBL</li>
+                            </ul>
+                            <li class="droped">Tags</li>
+                            <ul class="nested-side">
+                                <li>Mobile Phones</li>
+                                <li>Consoles</li>
+                                <li>Computers</li>
+                                <li>TV.Audio</li>
+                                <li>Smart Watches</li>
+                            </ul>
+                            <li class="droped">Home</li>
+                            <ul class="nested-side">
+                                <li>Latest News</li>
+                                <li>Feedbacks</li>
+                                <li>Contact</li>
+                                <li>Support</li>
+                                <li>FAQ</li>
+                            </ul>
+                            <li class="droped">Sale</li>
+                            <ul class="nested-side">
+                                <li>CELL PHONES</li>
+                                <li>CAMERAS</li>
+                                <li>COMPUTERS</li>
+                                <li>TV.AUDIO</li>
+                                <li>VIDEO GAMES</li>
+                            </ul>
+                        </ul>
+                    </section>
+                    <section class="custom">
+                        <div class="storage available">
+                            <h5>AVALIABLE</h5>
+                            <li class="active" data-count="45">In Storage</li>
+                            <li data-count="19">In Online Shop</li>
+                        </div>
+                        <div class="brands">
+                            <h5>BRANDS <a href="#">ALL</a></h5>
+                            <li class="active" data-count="32">Apple</li>
+                            <li data-count="14">JBL</li>
+                            <li data-count="5">Bose</li>
+                            <li data-count="3">Nest</li>
+                        </div>
+                    </section>
+                    <section class="condition">
+                        <div class="brands">
+                            <h5>CONDITION <a href="#">SEE ALL</a></h5>
+                            <li class="active">New</li>
+                            <li>Manufacturer Refurbished</li>
+                            <li>Seller Refurbished</li>
+                            <li class="active">Used</li>
+                            <li>For Parts or not Working</li>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="ship available">
+                            <h5>SHIPPING</h5>
+                            <div class="change">
+                                <li class="active">Free</li>
+                                <li>4.99$</li>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Best Sellers Section -->
+            <div class="best-sell">
+                <h4>BEST SELLING</h4>
+
+                <div class="b-posts">
+                    <div class="b-post">
+                        <img src="assets/producs/12.jpg" alt="">
+                        <h3>Apple Watch xs</h3>
+                        <span class="price">$ 280</span>
+                    </div>
+                    <div class="b-post">
+                        <img src="assets/producs/4.webp" alt="">
+                        <h3>iPhone 14 Plus</h3>
+                        <span class="price">$ 699</span>
+                    </div>
+                    <div class="b-post">
+                        <img src="assets/producs/7.jpg" alt="">
+                        <h3>Apple TV 32GB</h3>
+                        <span class="price">109.00$</span>
+                    </div>
+                    <div class="b-post">
+                        <img src="assets/producs/1.webp" alt="">
+                        <h3>Peppel Time</h3>
+                        <span class="price">$ 299</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Customers Comments -->
+    <div class="customers">
+        <h2>What Our Customers Have To Say</h2>
+        <p>Couple of Words About This Stories Section</p>
+        <div class="container">
+            <div class="comment">
+                <div class="info">
+                    <img src="assets/persons/person2.jpg">
+                    <a href="javascript:void(0)">Cella Fields</a>
+                    <span>UX Expert</span>
+                </div>
+                <span>
+                    This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon
+                    such abstruse matters.
+                </span>
+            </div>
+            <div class="comment">
+                <div class="info">
+                    <img src="assets/persons/person3.jpg">
+                    <a href="javascript:void(0)">Alexander Lee</a>
+                    <span>Founder</span>
+                </div>
+                <span>
+                    Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to
+                    the fire, and chuckled heartily.
+                </span>
+            </div>
+            <div class="comment">
+                <div class="info">
+                    <img src="assets/persons/person6.jpg">
+                    <a href="javascript:void(0)">Lenora Sandoval</a>
+                    <span>Product Manager</span>
+                </div>
+                <span>
+                    This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that
+                    before!' she said.
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Page End ( Footer ) -->
+    <div class="footer">
+        <div class="container">
+            <section class="nav">
+                <img src="assets/identity/logo-white.png" alt="">
+                <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)">Shop</a></li>
+                    <li><a href="javascript:void(0)">Team</a></li>
+                    <li><a href="javascript:void(0)">About Us</a></li>
+                    <li><a href="javascript:void(0)">Contacts</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                </ul>
+            </section>
+            <section class="last">
+                <p>Designed & Scripted with 💜 By Mhmd Amr</p>
+                <ul>
+                    <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                    <li><a href="javascript:void(0)">Terms And Conditions</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Scripts - JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
