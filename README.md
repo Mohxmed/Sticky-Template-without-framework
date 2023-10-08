@@ -11,7 +11,7 @@ Responsive to all screens  - [ CSS Media Queries ]
 Save Data in Local storage - [ JS Local Storage (BOM) ] 
 FontAwesome 6 icons        - [ CDN - Free Package ] 
 
-
+----
 |___ index.html
 |
 |___ Assets 
