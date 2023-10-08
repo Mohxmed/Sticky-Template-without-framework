@@ -12,4 +12,4 @@ Coded with Core Web Languages without Framework
   <li>FontAwesome 6 icons        - [ CDN - Free Package ] </li>
 </ul>
 
-<a href="https://mohxmed.github.io/Sticky-Template-without-framework">Live Preview</a>
+<a href="https://mohxmed.github.io/Sticky-Template-without-framework" traget="_blank">Live Preview</a>
